@@ -13,3 +13,8 @@ class siteconfig:
     def getheaderXPATH():
         xpath = config.get('amazon info', 'header_xpath')
         return xpath
+
+    @staticmethod
+    def getfooterXPATH():
+        xpath = config.get('amazon info', 'footer_xpath')
+        return xpath
